@@ -13,10 +13,7 @@ import (
 	_ "github.com/mattn/go-sqlite3"
 )
 
-const (
-	selectSql = "select id, gender from employees"
-	//defaultPort = "8080"
-)
+const selectSql = "select id, gender from employees"
 
 type Employee struct {
 	Id     int    `json:"id"`
@@ -101,8 +98,7 @@ func main() {
 	}
 
 	// start server
-	err := s.ListenAndServe()
-	if err != nil {
+	if err := s.ListenAndServe(); err != nil {
 		if err != http.ErrServerClosed {
 			panic(err)
 		}
