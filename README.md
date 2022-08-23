@@ -21,7 +21,7 @@
    * Set `PORT` environment variable again to match value set above (in the terminal that's running the server).
    * Run: `curl localhost:$PORT/employees`.
 
-## Ports
+## Changing Port
 * To test different port values:
   1. Stop the server with ctrl+c
   2. Run: `export PORT=<port>`
