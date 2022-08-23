@@ -7,7 +7,8 @@
 
 ## Recommended
 * Go Version 1.17 or higher - see go-sqlite3 supported Go versions [here](https://github.com/mattn/go-sqlite3/blob/v1.14.15/.github/workflows/go.yaml)).
-* These instructions were intended for mac/linux. If on windows, run your windows equivalent commands.
+* These instructions were intended for mac/linux. 
+  * If using windows, run your windows equivalent commands and refer to the required steps to compile with go-sqlite3 [here](https://github.com/mattn/go-sqlite3/tree/v1.14.15#windows).
 
 ## Setup & Run
 1. Open a new terminal.
@@ -33,3 +34,4 @@
 * To check the current port the server is configured with:
   1. Stop the server with ctrl+c
   2. Run: `env | grep PORT`
+  
