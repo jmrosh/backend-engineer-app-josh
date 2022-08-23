@@ -6,7 +6,7 @@
   * To check, run: `go env | grep CGO_ENABLED`.
 
 ## Recommended
-* Go Version 1.17 or higher - see go-sqlite3 supported Go versions [here](https://github.com/mattn/go-sqlite3/blob/v1.14.15/.github/workflows/go.yaml)).
+* Go Version 1.17 or higher - see go-sqlite3 supported Go versions [here](https://github.com/mattn/go-sqlite3/blob/v1.14.15/.github/workflows/go.yaml).
 * These instructions were intended for mac/linux. If on windows, run your windows equivalent commands.
 
 ## Setup & Run
