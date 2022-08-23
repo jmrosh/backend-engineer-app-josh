@@ -1,0 +1,8 @@
+Can add the following and pass a closure of the handlers:
+
+// Allows for adding new handlers without duplicating code
+type HandlerFunc func(http.ResponseWriter, *http.Request)
+
+func (f HandlerFunc) ServeHTTP(w http.ResponseWriter, r *http.Request) {
+	f(w, r)
+}
